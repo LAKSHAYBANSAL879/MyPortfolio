@@ -57,14 +57,14 @@ function EducationSection() {
                   <div className="md:w-1/3 bg-slate-800 p-6 flex flex-col justify-center">
                     <span className="text-blue-400 font-medium block mb-2">{item.period}</span>
                     <h3 className="text-xl font-bold text-white mb-1">{item.degree}</h3>
-                    <p className="text-gray-400">{item.institution}</p>
+                    <p className="text-gray-200">{item.institution}</p>
                   </div>
                   
                   <div className="md:w-2/3 p-6">
-                    <p className="text-gray-300 mb-4">
+                    <p className="text-gray-100 mb-4">
                       {item.description}
                     </p>
-                    <ul className="text-gray-400">
+                    <ul className="text-gray-300">
                       {item.achievements.map((achievement, i) => (
                         <li key={i} className="flex items-start mb-2">
                           <div className="text-blue-500 mr-2 mt-1">•</div>

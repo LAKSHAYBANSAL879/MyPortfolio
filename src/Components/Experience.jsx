@@ -58,17 +58,17 @@ function Experience() {
                       w-4 h-4 rounded-full bg-blue-500"></div>
                     <span className="text-blue-400 font-medium block mb-2">{exp.period}</span>
                     <h3 className="text-xl font-bold text-white mb-1">{exp.role}</h3>
-                    <p className="text-gray-400">{exp.company}</p>
+                    <p className="text-gray-100">{exp.company}</p>
                   </div>
                 </div>
                 
                 
                 <div className="md:w-1/2 px-4">
                   <div className="bg-slate-800/50 backdrop-blur-sm p-6 rounded-lg border border-gray-700 shadow-lg hover:shadow-blue-500/10 transition-shadow duration-300">
-                    <p className="text-gray-300 mb-4">
+                    <p className="text-gray-200 mb-4">
                       {exp.description}
                     </p>
-                    <ul className="text-gray-400">
+                    <ul className="text-gray-300">
                       {exp.highlights.map((highlight, i) => (
                         <li key={i} className="flex items-start mb-2">
                           <div className="text-blue-500 mr-2 mt-1">•</div>

@@ -146,10 +146,10 @@ function FloatingParticles({ count = 150 }) {
         />
       </bufferGeometry>
       <pointsMaterial
-        size={0.25}
+        size={0.2}
         vertexColors
         transparent
-        opacity={0.7}
+        opacity={0.5}
         sizeAttenuation
         map={circleTexture}
         alphaTest={0.01}
@@ -163,8 +163,8 @@ function Background() {
   return (
     <div className="fixed top-0 left-0 w-full h-full bg-slate-900 z-0">
       <Canvas>
-        <ambientLight intensity={0.5} />
-        <directionalLight position={[10, 10, 10]} intensity={0.5} />
+        <ambientLight intensity={0.3} />
+        <directionalLight position={[10, 10, 10]} intensity={0.4} />
         <PerspectiveCamera makeDefault position={[0, 0, 10]} />
         <AnimatedSphere />
         <FloatingParticles count={150} />

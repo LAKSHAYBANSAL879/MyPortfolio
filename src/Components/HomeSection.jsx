@@ -38,7 +38,7 @@ function HomeSection() {
                 />
               </span>
             </h2>
-            <p className="text-gray-400 text-lg mb-6 max-w-xl">
+            <p className="text-gray-100 text-lg mb-6 max-w-xl">
             I build fast, modern, and accessible web applications by leveraging cutting-edge technologies, intuitive design principles, and best development practices to deliver high-performance digital experiences.
 
 

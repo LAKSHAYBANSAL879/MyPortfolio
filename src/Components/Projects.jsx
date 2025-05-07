@@ -173,7 +173,7 @@ function Projects() {
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-2">My Projects</h2>
           <div className="w-24 h-1 bg-blue-500 mx-auto"></div>
-          <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
+          <p className="text-gray-200 mt-4 max-w-2xl mx-auto">
             A timeline of my major projects and selected works across different technologies.
           </p>
         </motion.div>
@@ -244,7 +244,7 @@ function Projects() {
                     
                     <div className="w-full md:w-1/2 text-left md:text-inherit">
                       <h3 className="text-2xl font-bold text-white mb-3">{project.title}</h3>
-                      <p className="text-gray-400 mb-4">{project.description}</p>
+                      <p className="text-gray-200 mb-4">{project.description}</p>
                       <div className="flex flex-wrap gap-2 mt-4 justify-start md:justify-normal">
                         {project.technologies.map((tech, techIndex) => (
                           <span 
@@ -338,7 +338,7 @@ function Projects() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
-                  <p className="text-gray-400 mb-4 line-clamp-3">{project.description}</p>
+                  <p className="text-gray-200 mb-4 line-clamp-3">{project.description}</p>
                   <div className="flex flex-wrap gap-2 mt-4">
                     {project.technologies.map((tech, techIndex) => (
                       <span 

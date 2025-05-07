@@ -37,12 +37,12 @@ function About() {
           >
             <div className="space-y-6">
               <h3 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 mb-2">Full Stack Developer & Problem Solver</h3>
-              <p className="text-gray-300 text-lg leading-relaxed">
+              <p className="text-gray-100 text-lg leading-relaxed">
                 I am a passionate full stack developer with expertise in building modern web applications. 
                 With a strong foundation in both frontend and backend technologies, I enjoy creating seamless 
                 user experiences that are both functional and visually appealing.
               </p>
-              <p className="text-gray-400 leading-relaxed">
+              <p className="text-gray-300 leading-relaxed">
               My programming journey began in university, where I developed a strong passion for building software and solving complex problems. Since then, I’ve consistently honed my skills—adapting to the ever-evolving tech landscape while deepening my understanding of data structures and algorithms. I take pride in writing clean, maintainable code and following best practices to create scalable, efficient, and reliable applications.
               </p>
               
